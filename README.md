@@ -17,7 +17,20 @@ According to our test results, we do not recommend to change the value of “Clo
  
 
 The following paper implements AdQSM. If you use AdQSM or any part of it, we would appreciate your acknowledgement and citation of our paper.
-Guangpeng Fan, Liangliang Nan, Yanqi Dong, Xiaohui Su and Feixiang Chen. AdQSM:A New Method for Estimating Above-Ground Biomass from TLS Point Clouds. Remote Sensing. 2020, 12(18),3089, doi:10.3390/rs12183089
+
+```bibtex
+@article{fan2020adqsm,
+  title={AdQSM: A New Method for Estimating Above-Ground Biomass from TLS Point Clouds},
+  author={Fan, Guangpeng and Nan, Liangliang and Dong, Yanqi and Su, Xiaohui and Chen, Feixiang},
+  journal={Remote Sensing},
+  volume={12},
+  number={18},
+  pages={3089},
+  year={2020},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
 
 At present, only 29 destructive sampled trees have tested the accuracy of adqsm in calculating branch volume and trunk volume. Therefore, in the current open source version, we can not guarantee that AdQSM has enough accuracy and stability.
+
 *The right of interpretation of AdQSM belongs to its author and R&D team. To further improve AdQSM, we welcome any invitation for collaboration and test feedback from those who need AdQSM research.
